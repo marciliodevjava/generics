@@ -11,7 +11,7 @@ public class CaixaNumeroTeste {
 		System.out.println(coisaA);
 		
 		CaixaNumero<Integer> caixaB = new CaixaNumero<>();
-		caixaB.guardar(2);
+		caixaB.guardar(123);
 		
 		Integer coisaB = caixaB.abrir();
 		System.out.println(coisaB);
