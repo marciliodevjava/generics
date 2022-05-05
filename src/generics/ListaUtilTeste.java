@@ -16,7 +16,7 @@ public class ListaUtilTeste {
 		System.out.println(ultimaLiguagem1);
 		System.out.println(ultimoNumero1);
 
-		String ultimaLiguagem2 = ListaUtil.<String>getUltimo2(langs);
+		String ultimaLiguagem2 = ListaUtil.getUltimo2(langs);
 		Integer ultimoNumero2 = ListaUtil.<Integer>getUltimo2(nums);
 
 		System.out.println(ultimaLiguagem2);
